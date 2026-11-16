@@ -135,6 +135,14 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 .wc .ft{top:1556px;width:680px;font-size:15px;line-height:24px;color:#4A4350}
 .wc .ol{left:952px;top:1602px;width:400px;text-align:center;font-size:14px;line-height:20px;letter-spacing:.24em;font-weight:600;color:#6E5418}
 @media (max-width:900px){.feature{grid-template-columns:1fr}}
+.btn.outline{color:var(--black)}
+.btn.outline:hover{background:rgba(201,151,28,.15)}
+.sample-cta{margin-top:32px}
+.start-card{background:#26231F;border:1px solid #5A5348;padding:32px}
+.start-card h3{color:var(--cream);font-size:32px;margin-bottom:12px}
+.start-card p{color:#E4DCCB}
+.start-card .btn{margin-top:24px}
+.start-card .note{margin-top:12px}
 </style>
 </head>
 <body>
@@ -194,6 +202,7 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 <ul><li>Everything in the Family Line Report</li><li>Designed into a 60–100 page book</li><li>Leather-style hardcover with gold title</li><li>Your photos and family stories</li><li>Digital copy included</li></ul>
 </div>
 </div>
+<p class="sample-cta"><a class="btn outline" href="sample.html">See a sample Roots Report</a></p>
 <div class="addons">
 <span>Extra research hour <b>$45</b></span>
 <span>Extra book copy <b>$249</b></span>
@@ -368,16 +377,12 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 <p><b>Facebook</b><a href="https://www.facebook.com/profile.php?id=61596604591987" style="color:inherit">Old Line Heritage Co.</a></p>
 <p><b>Based in</b>Maryland · Veteran-owned</p>
 </div>
-<form id="f" novalidate>
-<label>Your name<input name="name" autocomplete="name" required></label>
-<label>Email<input name="email" type="email" autocomplete="email" required></label>
-<label>Interested in
-<select name="pkg"><option>Not sure yet</option><option>Roots Report ($195)</option><option>Family Line Report ($595)</option><option>Heirloom Book ($995)</option><option>Gift certificate</option></select>
-</label>
-<label>What do you know so far?<textarea name="msg" placeholder="Names, dates, places, family stories…"></textarea></label>
-<button type="submit">Request my free consultation</button>
-<p class="note" id="note" role="status">This opens your email app with your message filled in, ready to send.</p>
-</form>
+<div class="start-card">
+<h3>Tell us about your family</h3>
+<p>Fill out our short family questionnaire: who you'd like to start with, what you already know, and the one question you most want answered. It's fine to leave anything blank.</p>
+<a class="btn solid" href="https://forms.gle/79UvstAm4dNxVhsz9" target="_blank" rel="noopener">Start my free consultation</a>
+<p class="note">Opens the questionnaire in a new tab. We'll reply within a day or two.</p>
+</div>
 </div>
 </div>
 </section>
@@ -388,18 +393,6 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 </footer>
 
 <script>
-document.getElementById('f').addEventListener('submit', function (e) {
-  e.preventDefault();
-  var note = document.getElementById('note');
-  var name = this.elements.name.value.trim();
-  var email = this.elements.email.value.trim();
-  if (!name || !email) { note.textContent = 'Please add your name and email.'; return; }
-  var pkg = this.elements.pkg.value;
-  var msg = this.elements.msg.value.trim();
-  var body = 'Name: ' + name + '\nEmail: ' + email + '\nInterested in: ' + pkg + '\n\nWhat I know so far:\n' + (msg || '(nothing yet)');
-  window.location.href = 'mailto:hello@oldlineheritage.com?subject=' + encodeURIComponent('Free consultation request from ' + name) + '&body=' + encodeURIComponent(body);
-  note.textContent = 'Your email app should open with your message. If it doesn’t, email hello@oldlineheritage.com directly.';
-});
 function fitScenes() {
   var ws = document.querySelectorAll('.scene-wrap');
   for (var i = 0; i < ws.length; i++) { ws[i].firstElementChild.style.transform = 'scale(' + (ws[i].clientWidth / 1600) + ')'; }
