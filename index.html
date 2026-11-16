@@ -406,6 +406,7 @@ function fitScenes() {
 }
 fitScenes();
 window.addEventListener('resize', fitScenes);
+if ('ResizeObserver' in window) { var ro = new ResizeObserver(fitScenes); document.querySelectorAll('.scene-wrap').forEach(function (w) { ro.observe(w); }); }
 </script>
 </body>
 </html>
