@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Old Line Heritage Co. — Genealogy Research &amp; Heirloom Family Books</title>
+<meta name="description" content="Genealogy research reports and hardcover heirloom family history books. Veteran-owned, Maryland.">
+<meta property="og:title" content="Old Line Heritage Co. | Your family's story, found and bound.">
+<meta property="og:description" content="Genealogy research reports and hardcover heirloom family history books. Veteran-owned, Maryland.">
+<meta property="og:url" content="https://www.oldlineheritage.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Ccircle cx='28' cy='28' r='27' fill='%231C1A17'/%3E%3Ccircle cx='28' cy='28' r='24' fill='none' stroke='%23C9971C' stroke-width='2'/%3E%3Cpath d='M28 44V24' stroke='%23C9971C' stroke-width='2.6' stroke-linecap='round'/%3E%3Cpath d='M21 31c-4 1-8-2-7-5c-4-2-3-8 1-9c0-4 5-6 7-5c2-3 10-3 12 0c2-1 7 1 7 5c4 1 4 7 1 9c1 3-3 6-7 5' fill='none' stroke='%23C9971C' stroke-width='2.2' stroke-linecap='round'/%3E%3Cpath d='M18 44h20' stroke='%23C9971C' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--black:#1C1A17;--gold:#C9971C;--gold-dk:#6E5418;--red:#A3201F;--cream:#F6F0E3;--card:#FBF7EE;--line:#CDBF9F;--text:#2A2630;--muted:#4A4350}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--text);font-family:'Libre Franklin',sans-serif;font-size:17px;line-height:1.6}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;color:var(--black);line-height:1.1;margin:0;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+a{color:var(--red)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.flag{display:flex;height:8px}
+.flag span{flex:1}
+.flag .cal{background:repeating-linear-gradient(90deg,var(--gold) 0 14px,var(--black) 14px 28px)}
+.flag .cro{background:repeating-linear-gradient(90deg,var(--red) 0 14px,#fff 14px 28px)}
+nav{background:var(--black);color:var(--cream)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--cream)}
+.brand b{font-family:'Cormorant Garamond',serif;font-size:24px;letter-spacing:.05em;font-weight:700}
+nav ul{list-style:none;display:flex;gap:22px;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{color:#EDE5D3;text-decoration:none;font-size:15px;letter-spacing:.04em}
+nav ul a:hover{color:var(--gold)}
+.hero{background:var(--black);color:var(--cream);padding:72px 0 84px;text-align:center}
+.hero h1{color:var(--cream);font-size:clamp(40px,6vw,72px);letter-spacing:.02em}
+.hero .tag{font-family:'Cormorant Garamond',serif;font-style:italic;color:var(--gold);font-size:clamp(22px,2.6vw,30px);margin-top:14px}
+.hero p.lead{max-width:640px;margin:22px auto 0;color:#E4DCCB;font-size:18px}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-block;padding:14px 26px;font-weight:600;text-decoration:none;letter-spacing:.04em;font-size:15px;border:2px solid var(--gold);min-height:48px}
+.btn.solid{background:var(--gold);color:var(--black)}
+.btn.solid:hover{background:#E0AE34}
+.btn.ghost{color:var(--cream)}
+.btn.ghost:hover{background:rgba(201,151,28,.15)}
+section{padding:80px 0}
+.eyebrow{font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-dk);font-weight:600;margin-bottom:10px}
+.sec-title{font-size:clamp(34px,4vw,48px);margin-bottom:14px}
+.intro{max-width:680px;color:var(--muted)}
+.center{text-align:center}.center .intro{margin:0 auto}
+.packages{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.pkg{background:var(--card);border:1px solid var(--line);padding:30px 26px;display:flex;flex-direction:column;gap:14px}
+.pkg.pop{border:2px solid var(--red)}
+.pkg.dark{background:var(--black);border-color:var(--black);color:#EDE5D3}
+.pkg.dark h3,.pkg.dark .price{color:var(--cream)}
+.pkg .kind{font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--gold-dk)}
+.pkg.pop .kind{color:var(--red)}
+.pkg.dark .kind{color:#E2C98A}
+.pkg h3{font-size:32px}
+.price{font-family:'Cormorant Garamond',serif;font-size:46px;font-weight:700;color:var(--black);line-height:1}
+.pkg ul{margin:0;padding-left:20px;font-size:15.5px}
+.pkg li{margin-bottom:6px}
+.addons{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:center;font-size:15px;color:var(--muted)}
+.addons b{color:var(--black)}
+.steps-bg{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin-top:44px;counter-reset:s}
+.step{position:relative;padding-top:58px}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:0;left:0;width:44px;height:44px;border:2px solid var(--gold);color:var(--black);font-family:'Cormorant Garamond',serif;font-weight:700;font-size:24px;display:flex;align-items:center;justify-content:center}
+.step h3{font-size:24px;margin-bottom:8px}
+.step p{font-size:15.5px;color:var(--muted)}
+.about{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.quote{background:var(--black);color:var(--cream);padding:40px 36px;border-left:0;position:relative}
+.quote p{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:28px;line-height:1.3}
+.quote .flag{margin-top:24px;width:160px}
+.about p+p{margin-top:16px}
+.gift{background:var(--red);color:#FFF6EE;text-align:center}
+.gift h2{color:#fff}
+.gift .intro{color:#FBE4DE}
+.gift .btn.solid{border-color:var(--gold)}
+.faq{max-width:780px;margin:40px auto 0}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;color:var(--black);list-style:none;display:flex;justify-content:space-between;gap:16px;min-height:44px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold-dk);font-size:28px}
+details[open] summary::after{content:"–"}
+details p{margin-top:10px;color:var(--muted)}
+.contact{background:var(--black);color:var(--cream)}
+.contact h2{color:var(--cream)}
+.contact .intro{color:#E4DCCB}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:40px}
+.info p{margin-bottom:12px}
+.info b{color:var(--gold);font-weight:600;display:block;font-size:13px;letter-spacing:.18em;text-transform:uppercase}
+form{display:flex;flex-direction:column;gap:14px}
+label{font-size:14px;color:#E4DCCB;display:flex;flex-direction:column;gap:6px}
+input,select,textarea{font:inherit;font-size:16px;padding:12px 14px;border:1px solid #5A5348;background:#26231F;color:var(--cream);min-height:46px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+textarea{min-height:120px;resize:vertical}
+form button{font:inherit;font-weight:600;cursor:pointer;background:var(--gold);color:var(--black);border:0;padding:14px;min-height:48px;letter-spacing:.04em}
+.note{font-size:14px;color:#E2C98A;min-height:1.5em}
+footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30px;font-size:14px;border-top:1px solid #3A352D}
+@media (max-width:900px){.packages,.steps{grid-template-columns:1fr 1fr}.about,.contact-grid{grid-template-columns:1fr}}
+@media (max-width:620px){.packages,.steps{grid-template-columns:1fr}section{padding:60px 0}nav ul{gap:14px}}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+<div class="wrap">
+<a class="brand" href="#top">
+<svg width="38" height="38" viewBox="0 0 56 56" fill="none" aria-hidden="true"><circle cx="28" cy="28" r="26" stroke="#C9971C" stroke-width="1.8"/><path d="M28 44V24" stroke="#C9971C" stroke-width="2.4" stroke-linecap="round"/><path d="M21 31c-4 1-8-2-7-5c-4-2-3-8 1-9c0-4 5-6 7-5c2-3 10-3 12 0c2-1 7 1 7 5c4 1 4 7 1 9c1 3-3 6-7 5M28 34L22 28M28 32L34 26M28 28L25 23M28 27L31 22M25 44q2-1 3-4M31 44q-2-1-3-4" stroke-linecap="round" stroke="#C9971C" stroke-width="1.8" stroke-linejoin="round"/><path d="M18 44h20" stroke="#C9971C" stroke-width="1.8" stroke-linecap="round"/></svg>
+<b>OLD LINE HERITAGE CO.</b>
+</a>
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#how">How it works</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+<div class="flag" aria-hidden="true"><span class="cal"></span><span class="cro"></span></div>
+
+<header class="hero" id="top">
+<div class="wrap">
+<p class="eyebrow" style="color:#E2C98A">Genealogy Research &amp; Heirloom Family Books</p>
+<h1>Your family's story,<br>found and bound.</h1>
+<p class="tag">Every family has a story worth binding.</p>
+<p class="lead">We trace your family through real records (census, military, church, land and vital records) and turn what we find into something you'll keep: a clear written report, or a hardcover heirloom book for the generations to come.</p>
+<div class="btns">
+<a class="btn solid" href="#contact">Book a free consultation</a>
+<a class="btn ghost" href="#services">See packages &amp; prices</a>
+</div>
+</div>
+</header>
+
+<section id="services">
+<div class="wrap center">
+<p class="eyebrow">Services &amp; Pricing</p>
+<h2 class="sec-title">Choose how deep you want to dig</h2>
+<p class="intro">Every package includes full source citations, so you know exactly where each name and date came from.</p>
+<div class="packages" style="text-align:left">
+<div class="pkg">
+<p class="kind">Digital</p>
+<h3>Roots Report</h3>
+<p class="price">$195</p>
+<ul><li>5 hours of research</li><li>3–4 generation family tree</li><li>Short written report with sources</li><li>Delivered as a PDF</li></ul>
+</div>
+<div class="pkg pop">
+<p class="kind">Digital · Most popular</p>
+<h3>Family Line Report</h3>
+<p class="price">$595</p>
+<ul><li>12 hours of research</li><li>One surname line traced as far back as records allow</li><li>Story-style narrative report</li><li>Family charts and record images</li></ul>
+</div>
+<div class="pkg dark">
+<p class="kind">Hardcover</p>
+<h3>Heirloom Book</h3>
+<p class="price">$995</p>
+<ul><li>Everything in the Family Line Report</li><li>Designed into a 60–100 page book</li><li>Leather-style hardcover with gold title</li><li>Your photos and family stories</li><li>Digital copy included</li></ul>
+</div>
+</div>
+<div class="addons">
+<span>Extra research hour <b>$45</b></span>
+<span>Extra book copy <b>$249</b></span>
+<span>Framed family tree wall chart <b>$125</b></span>
+</div>
+</div>
+</section>
+
+<section id="how" class="steps-bg">
+<div class="wrap">
+<div class="center">
+<p class="eyebrow">How it works</p>
+<h2 class="sec-title">Four simple steps</h2>
+</div>
+<div class="steps">
+<div class="step"><h3>Free consultation</h3><p>Tell us what you already know: names, dates, places, family stories and who you want to find.</p></div>
+<div class="step"><h3>Pick a package</h3><p>Choose a report or a book. Half is paid up front, the rest on delivery.</p></div>
+<div class="step"><h3>We research</h3><p>We search the records and send you updates along the way. Record fees are billed at cost, only with your OK.</p></div>
+<div class="step"><h3>Your story, delivered</h3><p>You get your report, or approve a proof of your book before it's printed and shipped to your door.</p></div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="wrap about">
+<div>
+<p class="eyebrow">About</p>
+<h2 class="sec-title">Rooted in the Old Line State</h2>
+<p>Old Line Heritage Co. started with one family: my own. Tracing the Blake line back through Baltimore and Glen Burnie, I found that the old records hold more than names and dates. They hold the stories families lose when no one writes them down.</p>
+<p>Now I do the same for other families. As a veteran, I bring the same patience and attention to detail to every record I search, and I'll always tell you honestly what the records can and can't show.</p>
+</div>
+<div class="quote">
+<p>"A name in a record is the start of a story. Our job is to find the rest of it."</p>
+<div class="flag" aria-hidden="true"><span class="cal"></span><span class="cro"></span></div>
+</div>
+</div>
+</section>
+
+<section class="gift">
+<div class="wrap">
+<p class="eyebrow" style="color:#FFE3A6">Gift Certificates</p>
+<h2 class="sec-title">The gift of where they came from</h2>
+<p class="intro" style="margin:0 auto">Perfect for parents and grandparents. Buy a certificate now, and the research begins whenever they're ready. You'll get a printable certificate by email within a day, ready to wrap or tuck into a card.</p>
+<div class="btns">
+<a class="btn solid" href="https://square.link/u/GuGsLGUW">Gift a Roots Report · $195</a>
+<a class="btn solid" href="https://square.link/u/0wUjjP3E">Gift a Family Line Report · $595</a>
+<a class="btn solid" href="https://square.link/u/ZBXh5IhF">Gift an Heirloom Book · $995</a>
+</div>
+<p style="margin-top:18px;font-size:14px;color:#FBE4DE">Secure checkout by Square. Questions? <a href="mailto:hello@oldlineheritage.com" style="color:#FFE3A6">hello@oldlineheritage.com</a></p>
+</div>
+</section>
+
+<section id="faq">
+<div class="wrap">
+<div class="center">
+<p class="eyebrow">Questions</p>
+<h2 class="sec-title">Frequently asked</h2>
+</div>
+<div class="faq">
+<details><summary>What do I need to get started?</summary><p>Just what you already know: full names, rough dates and places for parents and grandparents, plus any old photos, obituaries, family Bibles or military papers. Even a little helps.</p></details>
+<details><summary>Can you guarantee how far back you'll get?</summary><p>No honest genealogist can. Some families are well documented for centuries; others hit a wall where records were lost or never kept. You buy a set number of research hours, and we'll tell you clearly what we found and what's left to search.</p></details>
+<details><summary>What are "record fees"?</summary><p>Some records cost money to order, like certificates, courthouse copies or archive fees. These are billed to you at cost with no markup, and we ask before spending more than a small set amount.</p></details>
+<details><summary>How long does it take?</summary><p>Reports usually arrive within 3–6 weeks. Heirloom Books take a little longer: after research and writing, you approve a digital proof, then printing and shipping take about 2–3 weeks.</p></details>
+<details><summary>Do you work with families outside Maryland?</summary><p>Yes. Most records today are searched online, so we can research families from all over the United States.</p></details>
+<details><summary>Is my family's information kept private?</summary><p>Always. Information about living people is never shared or published, and we never show your report or book to anyone without your written permission.</p></details>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="wrap">
+<p class="eyebrow" style="color:#E2C98A">Contact</p>
+<h2 class="sec-title">Start your family's story</h2>
+<p class="intro">The first consultation is free. Tell us a little about your family and we'll get back to you within a day or two.</p>
+<div class="contact-grid">
+<div class="info">
+<p><b>Email</b><a href="mailto:hello@oldlineheritage.com" style="color:inherit;text-decoration:none">hello@oldlineheritage.com</a></p>
+<p><b>Facebook</b><a href="https://www.facebook.com/profile.php?id=61596604591987" style="color:inherit">Old Line Heritage Co.</a></p>
+<p><b>Based in</b>Maryland · Veteran-owned</p>
+</div>
+<form id="f" novalidate>
+<label>Your name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Interested in
+<select name="pkg"><option>Not sure yet</option><option>Roots Report ($195)</option><option>Family Line Report ($595)</option><option>Heirloom Book ($995)</option><option>Gift certificate</option></select>
+</label>
+<label>What do you know so far?<textarea name="msg" placeholder="Names, dates, places, family stories…"></textarea></label>
+<button type="submit">Request my free consultation</button>
+<p class="note" id="note" role="status">This opens your email app with your message filled in, ready to send.</p>
+</form>
+</div>
+</div>
+</section>
+
+<div class="flag" aria-hidden="true"><span class="cal"></span><span class="cro"></span></div>
+<footer>
+<p>© 2026 Old Line Heritage Co. · Genealogy Research &amp; Heirloom Family Books · Maryland · <a href="mailto:hello@oldlineheritage.com" style="color:inherit">hello@oldlineheritage.com</a></p>
+</footer>
+
+<script>
+document.getElementById('f').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var note = document.getElementById('note');
+  var name = this.elements.name.value.trim();
+  var email = this.elements.email.value.trim();
+  if (!name || !email) { note.textContent = 'Please add your name and email.'; return; }
+  var pkg = this.elements.pkg.value;
+  var msg = this.elements.msg.value.trim();
+  var body = 'Name: ' + name + '\nEmail: ' + email + '\nInterested in: ' + pkg + '\n\nWhat I know so far:\n' + (msg || '(nothing yet)');
+  window.location.href = 'mailto:hello@oldlineheritage.com?subject=' + encodeURIComponent('Free consultation request from ' + name) + '&body=' + encodeURIComponent(body);
+  note.textContent = 'Your email app should open with your message. If it doesn’t, email hello@oldlineheritage.com directly.';
+});
+</script>
+</body>
+</html>
