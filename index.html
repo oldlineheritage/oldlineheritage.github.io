@@ -155,6 +155,18 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 .trust ul{list-style:none;margin:0;padding:18px 0;display:flex;flex-wrap:wrap;justify-content:center;gap:12px 40px;font-size:15px;font-weight:600;color:var(--black)}
 .trust li{display:flex;align-items:center;gap:10px}
 @media (max-width:900px){.feature.rev{grid-template-columns:1fr}.feature.rev .art-wrap{order:-1}}
+.minis{margin-top:56px;padding-top:44px;border-top:1px solid var(--line)}
+.minis-title{font-size:clamp(28px,3vw,36px);margin-bottom:10px}
+.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:28px;text-align:left}
+.mini{background:var(--card);border:1px solid var(--line);padding:24px 22px;display:flex;flex-direction:column;gap:10px}
+.mini h4{font-family:'Cormorant Garamond',serif;font-size:26px;line-height:1.1;margin:0;color:var(--black)}
+.mini p{font-size:15px;color:var(--muted)}
+.mini .mini-price{font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:700;color:var(--black);line-height:1}
+.mini .btn{margin-top:auto;text-align:center}
+.mini p+p{padding-bottom:10px}
+.mini-note{margin-top:20px;font-size:15px;color:var(--muted)}
+.mini-note a{color:var(--red)}
+@media (max-width:900px){.mini-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -219,6 +231,17 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 </div>
 </div>
 <p class="book-note">The Roots Report is paid in full at checkout. The Family Line Report and Heirloom Book start with a 50% deposit. After checkout, fill out our short <a href="https://forms.gle/79UvstAm4dNxVhsz9" target="_blank" rel="noopener">family questionnaire</a> so we know where to begin. Rather talk first? Your consultation is free.</p>
+<div class="minis">
+<p class="eyebrow">Smaller starts · Great gifts</p>
+<h3 class="minis-title">Not ready for a full report?</h3>
+<p class="intro">Start small with one of these. Each is paid in full at checkout and emailed to you as a PDF.</p>
+<div class="mini-grid">
+<div class="mini"><h4>Family Tree Starter Chart</h4><p class="mini-price">$39</p><p>A printable chart designed from the names and dates you already know, up to three generations, ready to print and frame. No research included.</p><a class="btn outline" href="https://square.link/u/Mx6CFHbq">Buy now · $39</a></div>
+<div class="mini"><h4>Ancestor Lookup</h4><p class="mini-price">$49</p><p>One hour on one question about one ancestor, like a census entry, an obituary or a draft card, with a one-page answer and sources. Upgrade to a Roots Report within 30 days and your $49 counts toward it.</p><a class="btn outline" href="https://square.link/u/wq2U1B1E">Buy now · $49</a></div>
+<div class="mini"><h4>Military Service Search</h4><p class="mini-price">$79</p><p>We search for one ancestor's draft, enlistment, pension and burial records online and write a one-page service summary with sources. Records that must be ordered are billed at cost, only with your OK.</p><a class="btn outline" href="https://square.link/u/nXB32auT">Buy now · $79</a></div>
+</div>
+<p class="mini-note">After checkout, fill out the <a href="https://forms.gle/79UvstAm4dNxVhsz9" target="_blank" rel="noopener">family questionnaire</a> so we know who to look for.</p>
+</div>
 <p class="sample-cta"><a class="btn outline" href="sample.html">See a sample Roots Report</a></p>
 <div class="addons">
 <span>Extra research hour <b>$45</b></span>
@@ -438,7 +461,7 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 <details><summary>What are "record fees"?</summary><p>Some records cost money to order, like certificates, courthouse copies or archive fees. These are billed to you at cost with no markup, and we ask before spending more than a small set amount.</p></details>
 <details><summary>How long does it take?</summary><p>Reports usually arrive within 3–6 weeks. Heirloom Books take a little longer: after research and writing, you approve a digital proof, then printing and shipping take about 2–3 weeks.</p></details>
 <details><summary>Do you work with families outside Maryland?</summary><p>Yes. Most records today are searched online, so we can research families from all over the United States.</p></details>
-<details><summary>How does payment work?</summary><p>The Roots Report is paid in full when you order. The Family Line Report starts with a 50% deposit, and the rest is due when your report is delivered. The Heirloom Book starts with a 50% deposit, and the rest is due when you approve your proof, before the book is printed. Checkout is handled securely by Square, and you can <a href="https://square.link/u/EUMk2Sf9">pay your balance online</a>.</p></details>
+<details><summary>How does payment work?</summary><p>The Roots Report and the smaller services (Starter Chart, Ancestor Lookup and Military Service Search) are paid in full when you order. The Family Line Report starts with a 50% deposit, and the rest is due when your report is delivered. The Heirloom Book starts with a 50% deposit, and the rest is due when you approve your proof, before the book is printed. Checkout is handled securely by Square, and you can <a href="https://square.link/u/EUMk2Sf9">pay your balance online</a>.</p></details>
 <details><summary>Is my family's information kept private?</summary><p>Always. Information about living people is never shared or published, and we never show your report or book to anyone without your written permission.</p></details>
 </div>
 </div>
