@@ -143,6 +143,17 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 .start-card p{color:#E4DCCB}
 .start-card .btn{margin-top:24px}
 .start-card .note{margin-top:12px}
+.pkg .buy{margin-top:auto;padding-top:10px;display:flex;flex-direction:column;gap:12px;text-align:center}
+.gift-it{font-size:15px;font-weight:600}
+.pkg.dark .gift-it{color:#E2C98A}
+.book-note{margin-top:26px;color:var(--muted);font-size:15px}
+.feature.rev{grid-template-columns:1fr 1.25fr}
+.art-wrap{border:1px solid var(--line);line-height:0}
+.art{display:block;width:100%;height:auto}
+.trust{background:var(--card);border-bottom:1px solid var(--line)}
+.trust ul{list-style:none;margin:0;padding:18px 0;display:flex;flex-wrap:wrap;justify-content:center;gap:12px 40px;font-size:15px;font-weight:600;color:var(--black)}
+.trust li{display:flex;align-items:center;gap:10px}
+@media (max-width:900px){.feature.rev{grid-template-columns:1fr}.feature.rev .art-wrap{order:-1}}
 </style>
 </head>
 <body>
@@ -176,6 +187,7 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 </div>
 </div>
 </header>
+<div class="trust"><div class="wrap"><ul><li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6E5418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>Veteran-owned</li><li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6E5418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4"/><path d="M9 14l2 2 4-4"/></svg>Every fact sourced</li><li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6E5418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>Free first consultation</li><li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6E5418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="1"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Secure checkout by Square</li></ul></div></div>
 
 <section id="services">
 <div class="wrap center">
@@ -188,25 +200,89 @@ footer{background:var(--black);color:#B8AF9C;text-align:center;padding:26px 0 30
 <h3>Roots Report</h3>
 <p class="price">$195</p>
 <ul><li>5 hours of research</li><li>3–4 generation family tree</li><li>Short written report with sources</li><li>Delivered as a PDF</li></ul>
+<div class="buy"><a class="btn solid" href="https://docs.google.com/forms/d/e/1FAIpQLScfmaVBNqimzNr6bdAKBE5J3HPPCA9Ea_SH_s_saSRo9Hjkog/viewform?usp=pp_url&amp;entry.398978128=Roots+Report+%28%24195%29" target="_blank" rel="noopener">Start my Roots Report</a><a class="gift-it" href="https://square.link/u/GuGsLGUW">Give it as a gift</a></div>
 </div>
 <div class="pkg pop">
 <p class="kind">Digital · Most popular</p>
 <h3>Family Line Report</h3>
 <p class="price">$595</p>
 <ul><li>12 hours of research</li><li>One surname line traced as far back as records allow</li><li>Story-style narrative report</li><li>Family charts and record images</li></ul>
+<div class="buy"><a class="btn solid" href="https://docs.google.com/forms/d/e/1FAIpQLScfmaVBNqimzNr6bdAKBE5J3HPPCA9Ea_SH_s_saSRo9Hjkog/viewform?usp=pp_url&amp;entry.398978128=Family+Line+Report+%28%24595%29" target="_blank" rel="noopener">Start my Family Line Report</a><a class="gift-it" href="https://square.link/u/0wUjjP3E">Give it as a gift</a></div>
 </div>
 <div class="pkg dark">
 <p class="kind">Hardcover</p>
 <h3>Heirloom Book</h3>
 <p class="price">$995</p>
 <ul><li>Everything in the Family Line Report</li><li>Designed into a 60–100 page book</li><li>Leather-style hardcover with gold title</li><li>Your photos and family stories</li><li>Digital copy included</li></ul>
+<div class="buy"><a class="btn solid" href="https://docs.google.com/forms/d/e/1FAIpQLScfmaVBNqimzNr6bdAKBE5J3HPPCA9Ea_SH_s_saSRo9Hjkog/viewform?usp=pp_url&amp;entry.398978128=Heirloom+Book+%28%24995%29" target="_blank" rel="noopener">Start my Heirloom Book</a><a class="gift-it" href="https://square.link/u/ZBXh5IhF">Give it as a gift</a></div>
 </div>
 </div>
+<p class="book-note">Your first consultation is free, so nothing is charged when you start. Once you choose a package, half is paid up front and the rest on delivery.</p>
 <p class="sample-cta"><a class="btn outline" href="sample.html">See a sample Roots Report</a></p>
 <div class="addons">
 <span>Extra research hour <b>$45</b></span>
 <span>Extra book copy <b>$249</b></span>
 <span>Framed family tree wall chart <b>$125</b></span>
+</div>
+<div class="feature rev">
+<div>
+<p class="eyebrow">Heirloom Book</p>
+<h3>Your family's story, bound.</h3>
+<p>Everything we find, designed into a 60–100 page hardcover: a leather-style cover with your family name in gold, your family tree, a chapter for each generation, and room for your own photos and stories.</p>
+<p class="small">You approve a proof before it's printed and shipped to your door. Sample shown: The Keys, a Maryland family.</p>
+<div class="btns"><a class="btn solid" href="https://docs.google.com/forms/d/e/1FAIpQLScfmaVBNqimzNr6bdAKBE5J3HPPCA9Ea_SH_s_saSRo9Hjkog/viewform?usp=pp_url&amp;entry.398978128=Heirloom+Book+%28%24995%29" target="_blank" rel="noopener">Start my Heirloom Book</a><a class="btn outline" href="https://square.link/u/ZBXh5IhF">Give it as a gift</a></div>
+</div>
+<div class="art-wrap">
+<svg class="art" viewBox="0 0 1600 1200" role="img" aria-label="Sample Heirloom Book, The Keys: A Family History, shown closed beside an open spread with a family tree and Chapter One" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1200" fill="#D9CCAE"/>
+<rect y="600" width="1600" height="300" fill="#CDBE9C"/>
+<path d="M0 600H1600" stroke="#A8966F" stroke-width="10"/>
+<path d="M0 590H1600" stroke="#E6DBC2" stroke-width="4"/>
+<rect y="900" width="1600" height="300" fill="#4A3322"/>
+<rect x="-4" y="884" width="1608" height="44" fill="#5A3E2B" stroke="#1C1A17" stroke-width="4"/>
+<path d="M14 896H1586" stroke="#7A5638" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="540" cy="886" rx="330" ry="12" fill="#000" opacity=".22"/>
+<rect x="776" y="204" width="30" height="682" fill="#F4EFE3" stroke="#1C1A17" stroke-width="3"/>
+<path d="M786 210V880M796 210V880" stroke="#D8CFBB" stroke-width="2"/>
+<rect x="246" y="186" width="548" height="700" rx="8" fill="#1C1A17"/>
+<rect x="246" y="186" width="50" height="700" rx="8" fill="#2A2622"/>
+<path d="M300 190V882" stroke="#0E0D0B" stroke-width="4"/>
+<rect x="326" y="226" width="430" height="620" fill="none" stroke="#C9971C" stroke-width="3"/>
+<rect x="338" y="238" width="406" height="596" fill="none" stroke="#C9971C" stroke-width="1.5"/>
+<g transform="translate(507 270) scale(1.25)" fill="none" stroke="#C9971C"><path d="M28 44V24" stroke-width="2.4" stroke-linecap="round"/><path d="M21 31c-4 1-8-2-7-5c-4-2-3-8 1-9c0-4 5-6 7-5c2-3 10-3 12 0c2-1 7 1 7 5c4 1 4 7 1 9c1 3-3 6-7 5M28 34L22 28M28 32L34 26M28 28L25 23M28 27L31 22M25 44q2-1 3-4M31 44q-2-1-3-4" stroke-linecap="round" stroke-width="1.8" stroke-linejoin="round"/><path d="M18 44h20" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="541" y="452" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="72" font-weight="700" letter-spacing="4" fill="#C9971C">THE KEYS</text>
+<path d="M451 484H631" stroke="#C9971C" stroke-width="2"/>
+<text x="541" y="540" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-style="italic" font-size="42" font-weight="500" fill="#EDE5D3">A Family History</text>
+<path d="M461 582H541" stroke="#C9971C" stroke-width="8" stroke-dasharray="10 10"/>
+<path d="M541 582H621" stroke="#F4EFE3" stroke-width="8"/>
+<path d="M541 582H621" stroke="#A3201F" stroke-width="8" stroke-dasharray="10 10"/>
+<text x="541" y="664" text-anchor="middle" font-family="'Libre Franklin',sans-serif" font-size="22" font-weight="600" letter-spacing="5" fill="#EDE5D3">FROM COVENT GARDEN</text>
+<text x="541" y="698" text-anchor="middle" font-family="'Libre Franklin',sans-serif" font-size="22" font-weight="600" letter-spacing="5" fill="#EDE5D3">TO TERRA RUBRA</text>
+<text x="541" y="796" text-anchor="middle" font-family="'Libre Franklin',sans-serif" font-size="18" font-weight="600" letter-spacing="3" fill="#C9971C">FOUR GENERATIONS · 1697–1843</text>
+<ellipse cx="1160" cy="886" rx="300" ry="10" fill="#000" opacity=".2"/>
+<rect x="930" y="862" width="22" height="24" fill="#4A3322" stroke="#1C1A17" stroke-width="3"/>
+<rect x="1368" y="862" width="22" height="24" fill="#4A3322" stroke="#1C1A17" stroke-width="3"/>
+<rect x="880" y="840" width="560" height="26" rx="4" fill="#5A3E2B" stroke="#1C1A17" stroke-width="3"/>
+<rect x="866" y="372" width="588" height="474" rx="10" fill="#1C1A17"/>
+<path d="M1160 404C1080 386 960 386 886 400V838C960 824 1080 824 1160 842Z" fill="#FBF7EE" stroke="#1C1A17" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1160 404C1240 386 1360 386 1434 400V838C1360 824 1240 824 1160 842Z" fill="#FBF7EE" stroke="#1C1A17" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1136 402V842" stroke="#000" stroke-opacity=".06" stroke-width="40"/>
+<path d="M1184 402V842" stroke="#000" stroke-opacity=".04" stroke-width="40"/>
+<path d="M1160 404V842" stroke="#1C1A17" stroke-width="3"/>
+<text x="1027" y="462" text-anchor="middle" font-family="'Libre Franklin',sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#6E5418">THE KEY FAMILY</text>
+<rect x="914" y="490" width="46" height="34" fill="#FBF7EE" stroke="#C9971C" stroke-width="2"/><rect x="922" y="501" width="29" height="5" rx="2" fill="#4A4350"/><rect x="927" y="511" width="20" height="4" rx="2" fill="#B5AA94"/><rect x="974" y="490" width="46" height="34" fill="#FBF7EE" stroke="#C9971C" stroke-width="2"/><rect x="982" y="501" width="29" height="5" rx="2" fill="#4A4350"/><rect x="987" y="511" width="20" height="4" rx="2" fill="#B5AA94"/><rect x="1034" y="490" width="46" height="34" fill="#FBF7EE" stroke="#C9971C" stroke-width="2"/><rect x="1042" y="501" width="29" height="5" rx="2" fill="#4A4350"/><rect x="1047" y="511" width="20" height="4" rx="2" fill="#B5AA94"/><rect x="1094" y="490" width="46" height="34" fill="#FBF7EE" stroke="#C9971C" stroke-width="2"/><rect x="1102" y="501" width="29" height="5" rx="2" fill="#4A4350"/><rect x="1107" y="511" width="20" height="4" rx="2" fill="#B5AA94"/><path d="M937 524V540M997 524V540M937 540H997M967 540V556M1057 524V540M1117 524V540M1057 540H1117M1087 540V556M967 594V610M1087 594V610M967 610H1087M1027 610V626" stroke="#C9971C" stroke-width="2" fill="none"/><rect x="922" y="556" width="90" height="38" fill="#FBF7EE" stroke="#C9971C" stroke-width="2"/><rect x="938" y="568" width="58" height="5" rx="2" fill="#4A4350"/><rect x="947" y="580" width="40" height="4" rx="2" fill="#B5AA94"/><rect x="1042" y="556" width="90" height="38" fill="#FBF7EE" stroke="#C9971C" stroke-width="2"/><rect x="1058" y="568" width="58" height="5" rx="2" fill="#4A4350"/><rect x="1067" y="580" width="40" height="4" rx="2" fill="#B5AA94"/><rect x="962" y="626" width="130" height="44" fill="#1C1A17" stroke="#C9971C" stroke-width="2"/><rect x="985" y="640" width="83" height="5" rx="2" fill="#C9971C"/><rect x="998" y="653" width="57" height="4" rx="2" fill="#E2C98A"/>
+<rect x="914" y="704" width="224" height="6" rx="3" fill="#D8CFBB"/><rect x="914" y="721" width="206" height="6" rx="3" fill="#D8CFBB"/><rect x="914" y="738" width="218" height="6" rx="3" fill="#D8CFBB"/><rect x="914" y="755" width="180" height="6" rx="3" fill="#D8CFBB"/>
+<text x="1027" y="814" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" fill="#6E5418">4</text>
+<text x="1182" y="448" font-family="'Libre Franklin',sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#6E5418">CHAPTER ONE</text>
+<text x="1182" y="488" font-family="'Cormorant Garamond',serif" font-size="36" font-weight="700" fill="#1C1A17">Philip Key</text>
+<path d="M1182 506H1262" stroke="#C9971C" stroke-width="3"/>
+<rect x="1182" y="524" width="228" height="6" rx="3" fill="#D8CFBB"/><rect x="1182" y="541" width="214" height="6" rx="3" fill="#D8CFBB"/><rect x="1182" y="558" width="226" height="6" rx="3" fill="#D8CFBB"/><rect x="1182" y="575" width="198" height="6" rx="3" fill="#D8CFBB"/><rect x="1182" y="592" width="222" height="6" rx="3" fill="#D8CFBB"/><rect x="1182" y="609" width="170" height="6" rx="3" fill="#D8CFBB"/>
+<g transform="rotate(-3 1238 700)"><rect x="1184" y="636" width="108" height="128" fill="#EDE5D3" stroke="#1C1A17" stroke-width="2"/><rect x="1196" y="654" width="84" height="4" rx="3" fill="#9A8C70"/><rect x="1196" y="669" width="72" height="4" rx="3" fill="#9A8C70"/><rect x="1196" y="684" width="80" height="4" rx="3" fill="#9A8C70"/><rect x="1196" y="699" width="62" height="4" rx="3" fill="#9A8C70"/><rect x="1196" y="714" width="78" height="4" rx="3" fill="#9A8C70"/><rect x="1196" y="729" width="56" height="4" rx="3" fill="#9A8C70"/></g>
+<rect x="1308" y="648" width="104" height="6" rx="3" fill="#D8CFBB"/><rect x="1308" y="665" width="96" height="6" rx="3" fill="#D8CFBB"/><rect x="1308" y="682" width="104" height="6" rx="3" fill="#D8CFBB"/><rect x="1308" y="699" width="88" height="6" rx="3" fill="#D8CFBB"/><rect x="1308" y="716" width="100" height="6" rx="3" fill="#D8CFBB"/><rect x="1308" y="733" width="70" height="6" rx="3" fill="#D8CFBB"/>
+<text x="1293" y="814" text-anchor="middle" font-family="'Cormorant Garamond',serif" font-size="18" fill="#6E5418">7</text>
+<path d="M1160 842L1160 900L1172 888L1184 900L1184 842Z" fill="#A3201F" stroke="#1C1A17" stroke-width="2" stroke-linejoin="round"/>
+</svg>
+</div>
 </div>
 <div class="feature">
 <div class="scene-wrap" role="img" aria-label="Sample framed family tree wall chart of the Key family of Maryland, hanging above a side table next to a lamp">
